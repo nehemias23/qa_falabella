@@ -6,16 +6,21 @@
   "dependencies": {
     "cucumber": "^6.0.5",
     "eslint": "^6.8.0",
-    "npm":"6.14.4",
+    "npm":"^6.13.4",
     "testcafe": "^1.8.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1"
+  },
   "scripts": {
-    "test": "./node_modules/.bin/cucumber-js"
+    "debug": "node --inspect=1337 --debug-brk --nolazy node_modules/cucumber/bin/cucumber-js --tags @debug --format json:./reports/report.json",
+    "test": "./node_modules/.bin/cucumber-js",
+    "test-chrome": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"chrome\\\"}\"",
+    "test-ie": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"ie\\\"}\""
   },
   "repository": {
     "type": "git",
-    "url": "git"
+    "url": "https://github.com/nehemias23/qa_falabella"
   },
   "author": "Nehemias Luna <nehemiasluna@gmail.com>",
   "license": "ISC"
