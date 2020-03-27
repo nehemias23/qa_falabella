@@ -1,0 +1,22 @@
+{
+  "name": "falabella",
+  "version": "1.0.0",
+  "description": "Challenge 3 Prueba Vacate QA Automation Nehemias Luna - Falabella Digital Factory",
+  "main": "index.js",
+  "dependencies": {
+    "cucumber": "^6.0.5",
+    "eslint": "^6.8.0",
+    "npm":"6.14.4",
+    "testcafe": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "author": "Nehemias Luna <nehemiasluna@gmail.com>",
+  "license": "ISC"
+}
