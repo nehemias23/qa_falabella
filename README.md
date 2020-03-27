@@ -1,5 +1,5 @@
 # qa_falabella
-Challente Falabella Automation with TestCafe and Cucumber
+Challenge Falabella Automation with TestCafe and Cucumber
 
 Parte 3
 
@@ -30,5 +30,4 @@ Se deben automatizar la consulta de sucursales.
 
 > Desde la terminal ejecutar npm install command
 > Ejecutar Test
-  Chrome: npm run test
-  IE: npm run test-ie
+Chrome: npm run test / IE: npm run test-ie
