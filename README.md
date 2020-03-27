@@ -28,7 +28,7 @@ Se deben automatizar la consulta de sucursales.
 
 #Steps
 
-1. Desde la terminal ejecutar npm install command
-2. Ejecutar Test
+> Desde la terminal ejecutar npm install command
+> Ejecutar Test
   Chrome: npm run test
   IE: npm run test-ie
